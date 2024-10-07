@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color Variables */
+:root{
+    --primary-color: #0A74DA;
+    --secondary-color: #c1e1ff;
+    --accent-color: #FF7043;
+    --text-color: #333333;
+    --background-color: #F4F4F9;
+}
+
+/* body */
+body{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Mobile left and right alignment */
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* Header Styling */
+header{
+    background-color: var(--primary-color);
+}
+
+p.intro-txt{
+    color: var(--background-color);
+    text-transform: uppercase;
+}
