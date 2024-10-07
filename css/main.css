@@ -21,7 +21,7 @@ body{
 
 /* Mobile left and right alignment */
 .container{
-    width: 95%;
+    width: 96%;
     margin: 0 auto;
 }
 
@@ -29,9 +29,20 @@ body{
 /* Header Styling */
 header{
     background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem 0;
 }
 
 p.intro-txt{
     color: var(--background-color);
     text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+header nav{
+    background-color: var(--background-color);
+    display: ;
 }
