@@ -39,7 +39,7 @@ header{
 
 p.intro-txt{
     color: var(--background-color);
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     font-size: 0.8rem;
     display: flex;
