@@ -71,3 +71,7 @@ header nav{
 ul, input{
     display: none;
 }
+
+div.mobile-nav .material-symbols-outlined{
+    font-size: 2rem;
+}
