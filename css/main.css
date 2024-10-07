@@ -97,8 +97,13 @@ header nav.mobile-nav-cont{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     box-shadow: -2px 2px 10px 5px rgba(0, 0, 0, 0.2);
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.4rem;
+}
+
+.mobile-nav-cont.show{
+    transition: all 1.3s;
 }
 
 header nav.mobile-nav-cont ul, 
@@ -119,6 +124,7 @@ nav.mobile-nav-cont li{
     height: 35px;
     outline: none;
     margin-top: 1rem;
+    text-align: center;
     /* border: 2px solid var(--text-color); */
 }
 
