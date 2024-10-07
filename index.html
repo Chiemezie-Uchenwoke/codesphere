@@ -35,25 +35,42 @@
     <header>
         <p class="intro-txt">personal blog</p>
 
-            <nav>
-                <div class="logo-txt">codesphere</div>
+        <nav>
+            <div class="logo-txt">codesphere</div>
 
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">blog</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
 
-                <input type="search" placeholder="search">
+            <input type="search" placeholder="search">
 
-                <!-- Mobile Nav == hidden -->
-                <div class="mobile-nav">
-                    <span class="material-symbols-outlined">
-                        menu
-                    </span>
+            <!-- Mobile Nav == hidden -->
+            <div class="mobile-nav">
+                <span class="material-symbols-outlined" id="hamburger">
+                    menu
+                </span>
+
+                <div class="nav-wrapper">
+                    <nav class="mobile-nav-cont" id="mobile-nav-cont">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">blog</a></li>
+                        </ul>
+        
+                        <input type="search" placeholder="search">
+                    </nav>
                 </div>
-            </nav>
+            </div>
+        </nav>
     </header>
+
+    <!-- Hero Section -->
+     <section class="hero">
+        Hero
+     </section>
 
 
     <script src="./js/main.js"></script>
