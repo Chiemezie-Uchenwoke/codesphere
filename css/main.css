@@ -48,6 +48,14 @@ p.intro-txt{
     justify-content: center;
 }
 
+.play-txt{
+    color: var(--background-color);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 0.8rem;
+    /* display: none; */
+}
+
 div.logo-txt{
     color: var(--primary-color);
     font-weight: 700;
