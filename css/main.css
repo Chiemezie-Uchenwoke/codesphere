@@ -31,23 +31,27 @@ header{
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
     gap: 0.7rem;
-    padding: 1rem 0;
-    height: 20vh;
+    padding-top: 0.7rem;
+    /* height: 22vh; */
 }
 
 p.intro-txt{
     color: var(--background-color);
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.logo-txt{
     color: var(--primary-color);
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.27rem;
 }
 
 header ul > li{
@@ -65,7 +69,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    height: 15vh;
+    /* height: 15vh; */
 }
 
 ul, input{
@@ -73,5 +77,5 @@ ul, input{
 }
 
 div.mobile-nav .material-symbols-outlined{
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
