@@ -33,13 +33,14 @@ header{
     flex-direction: column;
     gap: 0.7rem;
     padding: 1rem 0;
+    height: 20vh;
 }
 
 p.intro-txt{
     color: var(--background-color);
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 div.logo-txt{
@@ -62,7 +63,9 @@ header nav{
     background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.5rem;
+    height: 15vh;
 }
 
 ul, input{
