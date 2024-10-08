@@ -24,7 +24,7 @@ body{
 @media (min-width: 768px){
     /* ===== Mobile left and right alignment ===== */
     .container{
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -36,13 +36,47 @@ body{
     header > nav{
         padding: 0.5rem 1.2rem;
     }
+
+    /* ============== Hero Section =============== */
+    /* .hero{
+        height: 80vh;
+    } */
+    
+    .hero-wrapper{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem 0;
+    }
+
+    .carousel-img, 
+    .hero-intro{
+        height: 65vh;
+    }
+
+    .carousel-img{
+        width: 120%;
+    }
+
+    .hero-intro{
+        gap: 0;
+        padding: 1rem;
+    }
+
+    .hero-intro h1{
+        font-size: 1.8rem;
+    }
+
+    .hero-intro p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
 }
 
 /* laptops and above */
 @media (min-width: 1000px){
     /* ===== Mobile left and right alignment ===== */
     .container{
-        width: 90%;
+        width: 96%;
         margin: 0 auto;
     }
 
@@ -112,13 +146,27 @@ body{
         font-size: 1.3rem;
         padding: 0 1rem;
     }
+
+    /* =================== Hero ================== */
+    .hero-intro h1{
+        font-size: 2.3rem;
+    }
+
+    .hero-intro p{
+        line-height: 2.2rem;
+    }
 }
 
 /* TV */
 @media (min-width: 1500px){
+    .container{
+        width: 94%;
+        margin: 0 auto;
+    }
+
     p.intro-txt,
     .play-txt{
-        font-size: 1rem;
+        font-size: 1.3rem;
         letter-spacing: 0.5px;
     }
 
@@ -126,19 +174,42 @@ body{
         font-size: 1.8rem;
     }
 
+    header > nav{
+        padding: 1.2rem 4rem;
+    }
+
     header > nav > ul{
         gap: 8rem;
     }
 
     header > nav > ul > li{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     header > nav > input{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     header > nav > input::placeholder{
         font-size: 1.5rem;
+    }
+
+    /* =================== Hero ================== */
+    .hero-wrapper{
+        padding: 5rem 0;
+    }
+    
+    .hero-intro h1{
+        font-size: 4.5rem;
+    }
+
+    .hero-intro p{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .hero-links > a.explore,
+    .hero-links > a.abt{
+        font-size: 2rem;
     }
 }

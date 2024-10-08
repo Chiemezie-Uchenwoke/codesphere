@@ -24,3 +24,23 @@ function revealText(){
 }
 setInterval(revealText, 5000);
 document.querySelector(".play-txt").style.display = "none";
+
+
+// Carousel
+let carouselDivImage = document.getElementById("carousel-img");
+
+function imageCarousel(){
+    let carouselImages = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg", "img7.jpg"];
+
+    let numberOfImages = carouselImages.length;
+    let createRandomNumber = Math.random();
+    // console.log(createRandomNumber);
+    createRandomNumber = createRandomNumber * numberOfImages;
+    createRandomNumber = Math.floor(createRandomNumber);
+
+    let ImageUrl = "assets/images/" + carouselImages[createRandomNumber];
+
+    carouselDivImage.setAttribute("src", ImageUrl);
+}
+imageCarousel();
+setInterval(imageCarousel, 5000);

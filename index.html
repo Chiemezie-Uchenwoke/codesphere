@@ -30,7 +30,7 @@
 
 </head>
 
-<body>
+<body onload="imageCarousel()">
 
     <header>
         <p class="intro-txt" onload="revealText()">
@@ -42,9 +42,9 @@
             <div class="logo-txt">codesphere</div>
 
             <ul>
-                <li><a href="#" class="active">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">blog</a></li>
+                <li><a href="./index.html" class="active">home</a></li>
+                <li><a href="./pages/about.html">about</a></li>
+                <li><a href="./pages/blog.html">blog</a></li>
             </ul>
 
             <input type="search" placeholder="search">
@@ -58,9 +58,9 @@
                 <div class="nav-wrapper">
                     <nav class="mobile-nav-cont" id="mobile-nav-cont">
                         <ul>
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">blog</a></li>
+                            <li><a href="./index.html">home</a></li>
+                            <li><a href="./pages/about.html">about</a></li>
+                            <li><a href="./pages/blog.html">blog</a></li>
                         </ul>
         
                         <input type="search" placeholder="search">
@@ -72,7 +72,22 @@
 
     <!-- Hero Section -->
      <section class="hero">
-        Hero
+        <div class="container hero-wrapper">
+            <div class="carousel-img">
+                <img alt="Carousel images about tech insights" id="carousel-img">
+            </div>
+    
+            <div class="hero-intro">
+                <h1>web development tips & Trends on <span>codesphere</span></h1>
+    
+                <p>Your go-to source for front-end development insights, tutorials, and best practices.</p>
+    
+                <div class="hero-links">
+                    <a href="./pages/blog.html" class="explore">start exploring</a>
+                    <a href="./pages/about.html" class="abt">about us</a>
+                </div>
+            </div>
+        </div>
      </section>
 
 

@@ -22,7 +22,7 @@ body{
 
 /* ===== Mobile left and right alignment ===== */
 .container{
-    width: 96%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -146,6 +146,7 @@ nav.mobile-nav-cont li{
 
 .nav-wrapper{
     display: none;
+    z-index: 100000;
 }
 
 /* ===== Visible ===== */
@@ -153,7 +154,77 @@ nav.mobile-nav-cont li{
     display: block;
 }
 
-/* ===== Hero Section ===== */
-section.hero{
+/* ============== Hero Section =============== */
+.hero{
     background-color: var(--primary-color);
+}
+
+.carousel-img{
+    width: 100%;
+    height: 45vh;
+    border: 2px solid var(--background-color);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carousel-img > img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: 1.2s ease-in-out;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.5rem 0;
+}
+
+.hero-intro{
+    background-color: var(--background-color);
+    padding: 1rem 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 5px;
+}
+
+.hero-intro span{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.hero-intro p{
+    line-height: 1.6rem;
+}
+
+.hero-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.hero-links > a.explore{
+    background-color: var(--accent-color);
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+
+.hero-links > a.abt{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem 0;
 }
