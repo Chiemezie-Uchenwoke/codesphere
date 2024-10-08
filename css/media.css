@@ -155,6 +155,11 @@ body{
     .hero-intro p{
         line-height: 2.2rem;
     }
+
+    .hero-links > a.explore,
+    .hero-links > a.abt{
+        font-size: 1.5rem;
+    }
 }
 
 /* TV */
