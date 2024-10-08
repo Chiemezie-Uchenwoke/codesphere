@@ -37,6 +37,10 @@ body{
     cursor: pointer;
 }
 
+.dark-mode-icon .bi-caret-down-fill{
+    font-size: 0.8rem;
+}
+
 .icon-cont{
     background-color: var(--primary-color);
     width: 7.5rem;
