@@ -127,6 +127,7 @@ nav.mobile-nav-cont li{
 }
 
 .mobile-nav-cont input{
+    font-size: 1.15rem;
     width: 100%;
     max-width: 350px;
     height: 35px;
