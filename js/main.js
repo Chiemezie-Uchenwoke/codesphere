@@ -14,7 +14,7 @@ function revealText(){
     let playText = document.querySelector(".play-txt");
 
     if (introText.style.display === "none"){
-        introText.style.display = "block"
+        introText.style.display = "block";
         playText.style.display = "none";
     }else{
         introText.style.display = "none";
