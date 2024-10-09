@@ -14,12 +14,23 @@ document.addEventListener("click", function hideDarkIconBox() {
     }
 });
 
+// Beginning of dark-mode logic
 
 let darkMode = document.getElementById("dk-mode");
 let lightMode = document.getElementById("lt-mode");
 
+darkMode.addEventListener("click", applyDarkMode);
+lightMode.addEventListener("click", removeDarkMode);
+
+// Check localStorage on page load to apply the saved theme: This calls either the darkmode or light mode function
+if (localStorage.getItem('theme') === 'dark') {
+    applyDarkMode();
+} else {
+    removeDarkMode();
+}
+
 // Dark mode 
-darkMode.addEventListener("click", function applyDarkMode(){
+function applyDarkMode(){
     // Add the class to the body
     document.body.classList.add("dark-mode");
     // header
@@ -28,11 +39,14 @@ darkMode.addEventListener("click", function applyDarkMode(){
     document.querySelector("header > nav").classList.add("dark-mode");
     // Hero
     document.querySelector(".hero").classList.add("dark-mode");
-}); 
+
+    // Save preference in localStorage
+    localStorage.setItem('theme', 'dark');
+}
 
 
 // Light Mode
-lightMode.addEventListener("click", function removeDarkMode(){
+function removeDarkMode(){
         // body
         document.body.classList.remove("dark-mode");
         // header
@@ -42,4 +56,6 @@ lightMode.addEventListener("click", function removeDarkMode(){
         // Hero
         document.querySelector(".hero").classList.remove("dark-mode");
        
-});
+        // Save preference in localStorage
+        localStorage.setItem('theme', 'light');
+}

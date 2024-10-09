@@ -92,13 +92,17 @@ body{
     color: var(--background-color);
 }
 
-.dark-mode .logo-txt{
+header.dark-mode .logo-txt{
     color: var(--background-color);
 }
 
 header.dark-mode .active{
     background-color: var(--background-color);
     color: var(--dark-mode);
+}
+
+header.dark-mode nav > ul > li:hover{
+    color: var(--secondary-color);
 }
 
 header.dark-mode input{
