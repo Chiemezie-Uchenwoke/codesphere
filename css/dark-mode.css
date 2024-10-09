@@ -92,6 +92,31 @@ body{
     color: var(--background-color);
 }
 
+.dark-mode .logo-txt{
+    color: var(--background-color);
+}
+
+header.dark-mode .active{
+    background-color: var(--background-color);
+    color: var(--dark-mode);
+}
+
+header.dark-mode input{
+    border: 2px solid var(--background-color);
+}
+
+.dark-mode #hamburger{
+    color: var(--background-color);
+}
+
+.hero.dark-mode .hero-intro > h1,
+.hero.dark-mode .hero-intro > p{
+    color: var(--text-color);
+}
+
+.hero.dark-mode .hero-links > a{
+    background-color: var(--dark-mode);
+}
 
 /* Laptops and above */
 @media (min-width: 1000px){
