@@ -39,6 +39,8 @@ function applyDarkMode(){
     document.querySelector("header > nav").classList.add("dark-mode");
     // Hero
     document.querySelector(".hero").classList.add("dark-mode");
+    // What you get
+    document.querySelector(".w-get").classList.add("dark-mode");
 
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -55,6 +57,8 @@ function removeDarkMode(){
         document.querySelector("header > nav").classList.remove("dark-mode");
         // Hero
         document.querySelector(".hero").classList.remove("dark-mode");
+        // What you get
+        document.querySelector(".w-get").classList.remove("dark-mode");
        
         // Save preference in localStorage
         localStorage.setItem('theme', 'light');

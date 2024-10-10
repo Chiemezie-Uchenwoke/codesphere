@@ -7,6 +7,7 @@
 /* ===== Color Variables ===== */
 :root{
     --primary-color: #0A74DA;
+    --hover-color: #3f84c5;
     --secondary-color: #c1e1ff;
     --accent-color: rgb(255, 112, 67);
     --text-color: #333333;
@@ -235,4 +236,64 @@ nav.mobile-nav-cont li{
     text-align: center;
     padding: 0.5rem 0;
     border-radius: 5px;
+}
+
+/* What You Get Section */
+.w-get{
+    margin-top: 3rem;
+}
+
+.w-get h2{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.g-btn{
+    margin: 1rem auto;
+    overflow-x: auto;
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+    -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer and Edge */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+/* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+.g-btn::-webkit-scrollbar {
+    display: none;
+}
+
+.g-btn button{
+    all: unset;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+}
+
+.g-btn button:hover{
+    color: var(--hover-color);
+}
+
+/* Arbitrary class to add underline using JavaScript */
+button.btn-style{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.g-cont{
+    margin-top: 1.5rem; /* 1.5 because i added a 0.5rem padding on the button */
+    display: flex;
+}
+
+.g-cont p{
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+}
+
+.g-s-p2,
+.g-s-p3{
+    display: none;
 }

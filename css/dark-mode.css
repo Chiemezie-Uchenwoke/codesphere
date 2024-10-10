@@ -92,6 +92,8 @@ body{
     color: var(--background-color);
 }
 
+/* Header */
+
 header.dark-mode .logo-txt{
     color: var(--background-color);
 }
@@ -113,6 +115,8 @@ header.dark-mode input{
     color: var(--background-color);
 }
 
+/* Hero */
+
 .hero.dark-mode .hero-intro{
     background-color: var(--dark-mode);
     box-shadow: -4px 4px 10px 5px rgba(244, 244, 249, 0.1);
@@ -128,6 +132,15 @@ header.dark-mode input{
 .hero.dark-mode .hero-links > a{
     background-color: var(--background-color);
     color: var(--text-color);
+}
+
+/* What you get */
+.w-get.dark-mode button.btn-style:hover{
+    color: var(--primary-color);
+}
+
+.w-get.dark-mode button:hover{
+    color: var(--secondary-color);
 }
 
 /* Laptops and above */

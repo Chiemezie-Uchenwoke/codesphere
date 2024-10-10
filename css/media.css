@@ -69,6 +69,20 @@ body{
         font-size: 1.4rem;
         line-height: 2rem;
     }
+
+    /* What you get section */
+    .w-get{
+        margin-top: 3.3rem;
+    }
+
+    .g-btn button{
+        font-size: 1.4rem;
+    }
+
+    .g-cont p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
 }
 
 /* laptops and above */
@@ -163,6 +177,24 @@ body{
     .hero-links > a.abt{
         font-size: 1.5rem;
     }
+
+    /* What you get section */
+    .w-get{
+        margin-top: 3.3rem;
+    }
+
+    .w-get h2{
+        font-size: 2rem;
+    }
+
+    .g-btn button{
+        font-size: 1.6rem;
+    }
+
+    .g-cont p{
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
 }
 
 /* TV */
@@ -219,5 +251,27 @@ body{
     .hero-links > a.explore,
     .hero-links > a.abt{
         font-size: 2rem;
+    }
+
+    /* What you get section */
+    .w-get{
+        margin-top: 3.3rem;
+    }
+
+    .w-get h2{
+        font-size: 2.7rem;
+    }
+
+    .g-btn{
+        padding: 1.5rem 0;
+    }
+
+    .g-btn button{
+        font-size: 2rem;
+    }
+
+    .g-cont p{
+        font-size: 1.8rem;
+        line-height: 2.9rem;
     }
 }

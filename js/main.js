@@ -44,3 +44,38 @@ function imageCarousel(){
 }
 imageCarousel();
 setInterval(imageCarousel, 5000);
+
+// What You Get Section
+let button1 = document.getElementById("code");
+let button2 = document.getElementById("project");
+let button3 = document.getElementById("tech");
+let para1 = document.getElementById("g-s-p1");
+let para2 = document.getElementById("g-s-p2");
+let para3 = document.getElementById("g-s-p3");
+
+button2.addEventListener("click", function showp2(){
+    button1.classList.remove("btn-style");
+    button3.classList.remove("btn-style");
+    para1.style.display = "none";
+    para3.style.display = "none";
+    button2.classList.add("btn-style");
+    para2.style.display = "block";
+});
+
+button3.addEventListener("click", function showp3(){
+    button1.classList.remove("btn-style");
+    button2.classList.remove("btn-style");
+    para1.style.display = "none";
+    para2.style.display = "none";
+    button3.classList.add("btn-style");
+    para3.style.display = "block";
+});
+
+button1.addEventListener("click", function showp1(){
+    button2.classList.remove("btn-style");
+    button3.classList.remove("btn-style");
+    para2.style.display = "none";
+    para3.style.display = "none";
+    button1.classList.add("btn-style");
+    para1.style.display = "block";
+});
