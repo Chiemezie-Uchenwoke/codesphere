@@ -187,6 +187,10 @@ body{
         font-size: 2rem;
     }
 
+    .g-btn{
+        padding: 0.7rem 0;
+    }
+
     .g-btn button{
         font-size: 1.6rem;
     }
