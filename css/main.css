@@ -245,7 +245,7 @@ nav.mobile-nav-cont li{
 
 .w-get h2{
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     font-weight: 800;
 }
 
@@ -266,7 +266,7 @@ nav.mobile-nav-cont li{
 
 .g-btn button{
     all: unset;
-    font-size: 1.2rem;
+    font-size: 1.23rem;
     cursor: pointer;
     text-transform: capitalize;
     padding: 0.5rem 0;
@@ -290,7 +290,7 @@ button.btn-style{
 .g-cont p{
     text-align: justify;
     hyphens: auto;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
     letter-spacing: 0.2px;
 }
