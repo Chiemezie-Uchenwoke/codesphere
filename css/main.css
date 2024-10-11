@@ -25,7 +25,7 @@ body{
 
 /* ===== Mobile left and right alignment ===== */
 .container{
-    width: 95%;
+    width: 93%;
     margin: 0 auto;
 }
 
@@ -320,11 +320,11 @@ button.btn-style{
     text-transform: capitalize;
     font-size: 1.55rem;
     font-weight: 800;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
 }
 
 .f-grid-box{
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
