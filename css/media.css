@@ -219,10 +219,18 @@ body{
         font-size: 2rem;
     }
 
+    .featured h3{
+        line-height: 1.7rem;
+    }
+
     .f-grid-box{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(2, auto);
         row-gap: 2.5rem;
+    }
+
+    .f-grid-box > div{
+        padding: 1.5rem 1rem;
     }
 
     .f-wrap{
@@ -231,14 +239,14 @@ body{
 
     a.f-view{
         font-size: 1.5rem;
-        padding: 1rem 1.5rem;
+        padding: 0.8rem 1.5rem;
     }
 }
 
 /* TV */
 @media (min-width: 1500px){
     .container{
-        width: 94%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -253,7 +261,7 @@ body{
     }
 
     header > nav{
-        padding: 1.2rem 4rem;
+        padding: 1.2rem 12rem;
     }
 
     header > nav > ul{
@@ -276,13 +284,21 @@ body{
     .hero-wrapper{
         padding: 5rem 0;
     }
+
+    .hero-wrapper{
+        gap: 3rem;
+    }
+
+    .hero-wrapper > div{
+        height: 50vh;
+    }
     
     .hero-intro h1{
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     .hero-intro p{
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 3.5rem;
     }
 
