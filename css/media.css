@@ -85,10 +85,16 @@ body{
     }
 
     /* Featured Post */
+    .featured h2{
+        font-size: 1.55rem;
+        padding: 0;
+    }
+
     .f-grid-box{
+        padding: 0;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
-    }
+    }    
 }
 
 /* laptops and above */
