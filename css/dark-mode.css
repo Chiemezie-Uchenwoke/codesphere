@@ -170,8 +170,14 @@ header.dark-mode input{
 }
 
 .featured.dark-mode a.f-view{
-    border: none;
-    background-color: var(--primary-color);
+    border: 2px solid var(--background-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.featured.dark-mode a.f-view:hover{
+    border: 2px solid var(--background-color);
+    background-color: var(--dark-mode);
     color: var(--background-color);
 }
 
