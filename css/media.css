@@ -83,13 +83,19 @@ body{
         font-size: 1.2rem;
         line-height: 1.8rem;
     }
+
+    /* Featured Post */
+    .f-grid-box{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
 }
 
 /* laptops and above */
 @media (min-width: 1000px){
     /* ===== Mobile left and right alignment ===== */
     .container{
-        width: 96%;
+        width: 93%;
         margin: 0 auto;
     }
 
@@ -105,7 +111,7 @@ body{
 
     header > nav{
         width: 100%;
-        padding: 1.2rem 1.5rem;
+        padding: 1.2rem 2.8rem;
     }
 
     header > nav > ul,
@@ -199,6 +205,29 @@ body{
         font-size: 1.5rem;
         line-height: 2.3rem;
     }
+
+    /* Featured Post */
+    .featured{
+        padding: 4rem 0;
+    }
+
+    .featured h2{
+        font-size: 2rem;
+    }
+
+    .f-grid-box{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, auto);
+        row-gap: 2.5rem;
+    }
+
+    .f-wrap{
+        gap: 4.5rem;
+    }
+
+    a.f-view{
+        font-size: 1.5rem;
+    }
 }
 
 /* TV */
@@ -277,5 +306,10 @@ body{
     .g-cont p{
         font-size: 1.8rem;
         line-height: 2.9rem;
+    }
+
+    /* Featured Post */
+    .featured h2{
+        font-size: 2.7rem;
     }
 }

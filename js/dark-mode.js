@@ -41,6 +41,8 @@ function applyDarkMode(){
     document.querySelector(".hero").classList.add("dark-mode");
     // What you get
     document.querySelector(".w-get").classList.add("dark-mode");
+    // Featured Post
+    document.querySelector(".featured").classList.add("dark-mode");
 
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -59,6 +61,8 @@ function removeDarkMode(){
         document.querySelector(".hero").classList.remove("dark-mode");
         // What you get
         document.querySelector(".w-get").classList.remove("dark-mode");
+        // Featured Post
+        document.querySelector(".featured").classList.remove("dark-mode");
        
         // Save preference in localStorage
         localStorage.setItem('theme', 'light');
