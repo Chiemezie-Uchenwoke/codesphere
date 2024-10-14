@@ -499,6 +499,11 @@ a.f-view{
 .contact span > i{
     font-size: 2rem;
     cursor: pointer;
+    transition: all ease-in-out 0.6s;
+}
+
+.contact span > i:hover{
+    transform: scale(1.21);
 }
 
 .contact2{
