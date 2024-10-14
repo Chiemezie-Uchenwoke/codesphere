@@ -20,8 +20,8 @@ body{
     background-color: var(--background-color);
 }
 
-/* Tablet */
-@media (min-width: 768px){
+/* small tabs */
+@media (min-width: 600px){
     /* ===== Mobile left and right alignment ===== */
     .container{
         width: 95%;
@@ -49,7 +49,7 @@ body{
     }
 
     .hero-wrapper > div{
-        height: 65vh;
+        height: 70vh;
     }
 
     .carousel-img{
@@ -92,7 +92,19 @@ body{
     .f-grid-box{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
-    }    
+    }  
+    
+    /* Inspire */
+    .inspire{
+        margin-top: 3rem;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px){
+    .hero-wrapper > div{
+        height: 70vh;
+    }
 }
 
 /* laptops and above */
@@ -174,6 +186,10 @@ body{
     .hero-wrapper{
         padding: 4rem 0;
     }
+
+    .hero-wrapper > div{
+        height: 65vh;
+    }
     
     .hero-intro h1{
         font-size: 2.3rem;
@@ -240,6 +256,22 @@ body{
     a.f-view{
         font-size: 1.5rem;
         padding: 0.8rem 1.5rem;
+    }
+
+    /* Inspire */
+    .inspire{
+        margin-top: 4rem;
+    }
+
+    .insp-wr{
+        font-size: 2.2rem;
+        letter-spacing: 0.3px;
+        /* height: 7rem; */
+    }
+
+    .insp-wr > p{
+        width: 68%;
+        margin: 0 auto;
     }
 }
 

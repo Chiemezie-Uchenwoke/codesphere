@@ -43,7 +43,7 @@ function imageCarousel(){
     carouselDivImage.setAttribute("src", ImageUrl);
 }
 imageCarousel();
-setInterval(imageCarousel, 5000);
+setInterval(imageCarousel, 4000);
 
 // What You Get Section
 let button1 = document.getElementById("code");
@@ -79,3 +79,33 @@ button1.addEventListener("click", function showp1(){
     button1.classList.add("btn-style");
     para1.style.display = "block";
 });
+
+// Inspire
+let firstText = document.getElementById("isp1");
+let secondText = document.getElementById("isp2");
+let thirdText = document.getElementById("isp3");
+
+function inspireTextEffect(){
+    if (firstText.style.display === "block"){
+        firstText.style.display = "none";
+        secondText.style.display = "block";
+        thirdText.style.display = "none";
+    }
+
+    else if (secondText.style.display === "block"){
+        secondText.style.display = "none";
+        firstText.style.display = "none";
+        thirdText.style.display = "block";
+    }
+
+    else {
+        firstText.style.display = "block";              
+        secondText.style.display = "none";
+        thirdText.style.display = "none";
+    }
+}
+
+firstText.style.display = "block";
+secondText.style.display = "none";
+thirdText.style.display = "none"
+setInterval(inspireTextEffect, 3000);

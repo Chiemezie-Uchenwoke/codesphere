@@ -427,3 +427,29 @@ a.f-view{
     align-self: center;
     font-size: 1.2rem;
 }
+
+/* Inspire */
+.inspire{
+    margin-top: 3rem;
+}
+
+.insp-wr{
+    background-image: linear-gradient(to top right, var(--primary-color) 25%, var(--primary-lighter));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    font-size: 1.2rem;
+    /* letter-spacing: 0.1px; */
+    font-weight: 800;
+    text-transform: capitalize;
+    color: var(--background-color);
+    text-align: center;
+    hyphens: auto;
+    padding: 1.5rem;
+}
+
+/* Contact */
+.contact{
+    margin-top: 4rem;
+}
