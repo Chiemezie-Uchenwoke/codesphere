@@ -20,6 +20,45 @@ body{
     background-color: var(--background-color);
 }
 
+/* small screen */
+@media (min-width: 400px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* What you get section */
+    .w-get{
+        margin-top: 3.3rem;
+    }
+
+    /* Inspire */
+    .inspire{
+        margin-top: 3rem;
+    }
+}
+
+/* small screen */
+@media (min-width: 500px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* What you get section */
+    .w-get{
+        margin-top: 3.3rem;
+    }
+
+    /* Inspire */
+    .inspire{
+        margin-top: 3rem;
+    }
+}
+
+
 /* small tabs */
 @media (min-width: 600px){
     /* ===== Mobile left and right alignment ===== */
@@ -53,7 +92,7 @@ body{
     }
 
     .carousel-img{
-        width: 120%;
+        width: 140%;
     }
 
     .hero-intro{
@@ -66,7 +105,7 @@ body{
     }
 
     .hero-intro p{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 2rem;
     }
 
@@ -98,12 +137,46 @@ body{
     .inspire{
         margin-top: 3rem;
     }
+
+    /* Contact */
+    .contact-wrp{
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   /*  .contact-wrp > div{
+        height: 300px;
+    } */
+
+   /*  .contact1{
+        display: block;
+    } */
 }
 
 /* Tablets */
 @media (min-width: 768px){
     .hero-wrapper > div{
         height: 70vh;
+    }
+
+    .carousel-img{
+        width: 120%;
+    }
+
+    .hero-intro p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    /* Contact */
+    .contact h2{
+        font-size: 1.4rem;
+    }
+
+    .contact-wrp > div{
+        height: 250px;
     }
 }
 
@@ -273,6 +346,39 @@ body{
         width: 68%;
         margin: 0 auto;
     }
+
+    /* Contact */
+    .contact-wrp{
+        gap: 5rem;
+        padding: 4rem 1rem;
+    }
+
+    .contact h2{
+        font-size: 2.2rem;
+    }
+
+    .contact p{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.3px;
+    }
+
+    .contact-wrp > div{
+        height: 350px;
+    }
+
+    .contact span > i{
+        font-size: 2.2rem;
+    }
+
+    .contact span{
+        gap: 3rem;
+    }
+
+    .contact2{
+        gap: 2.5rem;
+    }
+    
 }
 
 /* TV */

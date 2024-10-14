@@ -452,4 +452,61 @@ a.f-view{
 /* Contact */
 .contact{
     margin-top: 4rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.contact-wrp{
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.contact-wrp > div{
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+
+/* .contact1{
+    display: none;
+} */
+
+.contact img{
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.contact h2{
+    text-transform: capitalize;
+    font-size: 1.55rem;
+    font-weight: 800;
+}
+
+.contact p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.contact span > i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.contact span{
+    display: flex;
+    gap: 1.3rem;
 }
