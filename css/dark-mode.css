@@ -13,6 +13,7 @@
     --lightborder-color: #d0d0d0;
     --background-color: rgb(244, 244, 249);
     --dark-mode: #212429;
+    --inspire: #24272c;
 }
 
 /* ===== body ===== */
@@ -181,11 +182,13 @@ header.dark-mode input{
     color: var(--background-color);
 }
 
+.inspire.dark-mode .insp-wr{
+    background-image: linear-gradient(to top right, var(--inspire), var(--text-color));
+}
+
 /* Laptops and above */
 @media (min-width: 1000px){
     .dark-mode-icon{
         bottom: 5rem;
     }
 }
-
-

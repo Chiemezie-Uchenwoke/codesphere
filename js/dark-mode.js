@@ -43,6 +43,8 @@ function applyDarkMode(){
     document.querySelector(".w-get").classList.add("dark-mode");
     // Featured Post
     document.querySelector(".featured").classList.add("dark-mode");
+    // Inspire
+    document.querySelector(".inspire").classList.add("dark-mode");
 
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -63,6 +65,8 @@ function removeDarkMode(){
         document.querySelector(".w-get").classList.remove("dark-mode");
         // Featured Post
         document.querySelector(".featured").classList.remove("dark-mode");
+        // Inspire
+        document.querySelector(".inspire").classList.remove("dark-mode");
        
         // Save preference in localStorage
         localStorage.setItem('theme', 'light');
