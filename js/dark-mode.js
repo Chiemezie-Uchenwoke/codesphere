@@ -45,6 +45,8 @@ function applyDarkMode(){
     document.querySelector(".featured").classList.add("dark-mode");
     // Inspire
     document.querySelector(".inspire").classList.add("dark-mode");
+    // Contact
+    document.querySelector(".contact").classList.add("dark-mode");
 
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -67,6 +69,8 @@ function removeDarkMode(){
         document.querySelector(".featured").classList.remove("dark-mode");
         // Inspire
         document.querySelector(".inspire").classList.remove("dark-mode");
+         // Contact
+        document.querySelector(".contact").classList.remove("dark-mode");
        
         // Save preference in localStorage
         localStorage.setItem('theme', 'light');
