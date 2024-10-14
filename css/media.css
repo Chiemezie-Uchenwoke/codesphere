@@ -350,7 +350,7 @@ body{
     /* Contact */
     .contact-wrp{
         gap: 5rem;
-        padding: 4rem 1rem;
+        padding: 4rem 0rem;
     }
 
     .contact h2{
