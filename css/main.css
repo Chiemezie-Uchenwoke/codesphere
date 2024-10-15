@@ -536,7 +536,7 @@ a.f-view{
     }
 
     100%{
-        opacity: 0.5;
+        opacity: 0.7;
         box-shadow: -2px 2px 5px 5px rgba(244, 244, 249, 0.07);
         transition: all 0.3s ease-in-out;
         scale: 1;
