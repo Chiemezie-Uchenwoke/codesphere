@@ -447,6 +447,7 @@ a.f-view{
     text-align: center;
     hyphens: auto;
     padding: 1.5rem;
+    border-radius: 5px;
 }
 
 /* Contact */
@@ -503,7 +504,7 @@ a.f-view{
 }
 
 .contact span > i:hover{
-    transform: scale(1.21);
+    transform: scale(1.25);
 }
 
 .contact2{
