@@ -486,6 +486,11 @@ a.f-view{
     animation-iteration-count: infinite;
 }
 
+.contact img:hover{
+    transform: scaleX(-1);
+    /* transition: all 1s ease-in-out  */ /*This will flip the image horizontally*/
+}
+
 .contact h2{
     text-transform: capitalize;
     font-size: 1.55rem;
@@ -534,6 +539,7 @@ a.f-view{
     50%{
         opacity: 0.4;
         scale: 0.96;
+        /* transform: scaleX(-1); */
     }
 
     100%{

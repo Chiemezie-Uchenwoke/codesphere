@@ -183,7 +183,8 @@ header.dark-mode input{
 }
 
 .inspire.dark-mode .insp-wr{
-    background-image: linear-gradient(to top right, var(--inspire), var(--text-color));
+    background-image: linear-gradient(to top right, var(--background-color), var(--lightborder-color));
+    color: var(--dark-mode);
 }
 
 /* Laptops and above */
