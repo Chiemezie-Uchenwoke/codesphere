@@ -47,6 +47,8 @@ function applyDarkMode(){
     document.querySelector(".inspire").classList.add("dark-mode");
     // Contact
     document.querySelector(".contact").classList.add("dark-mode");
+    // Footer
+    document.querySelector("footer").classList.add("dark-mode");
 
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -71,6 +73,8 @@ function removeDarkMode(){
         document.querySelector(".inspire").classList.remove("dark-mode");
          // Contact
         document.querySelector(".contact").classList.remove("dark-mode");
+        // Footer
+        document.querySelector("footer").classList.remove("dark-mode");
        
         // Save preference in localStorage
         localStorage.setItem('theme', 'light');

@@ -141,7 +141,7 @@ header.dark-mode input{
 }
 
 .w-get.dark-mode button:hover{
-    color: var(--secondary-color);
+    color: var(--accent-color);
 }
 
 /* Featured Post */
@@ -185,6 +185,10 @@ header.dark-mode input{
 .inspire.dark-mode .insp-wr{
     background-image: linear-gradient(to top right, var(--background-color), var(--lightborder-color));
     color: var(--dark-mode);
+}
+
+footer.dark-mode{
+    border-top: 3px solid var(--text-color);
 }
 
 /* Laptops and above */
