@@ -337,9 +337,9 @@ body{
     }
 
     .insp-wr{
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         letter-spacing: 0.3px;
-        width: 85%;
+        width: 70%;
         margin-inline: auto;
         /* height: 7rem; */
     }
@@ -379,6 +379,20 @@ body{
 
     .contact2{
         gap: 2.5rem;
+    }
+
+    /* Footer */
+    footer > div:nth-child(1){
+        padding: 5.5rem 0;
+        gap: 2rem;
+    }
+
+    footer h4{
+        font-size: 1.5rem;
+    }
+
+    footer p{
+        font-size: 0.95rem;
     }
     
 }
