@@ -147,7 +147,7 @@ header.dark-mode input{
 /* Featured Post */
 .featured.dark-mode .f-grid-box > div{
     background-color: var(--dark-mode);
-    border: 2px solid var(--lightborder-color);
+    border: 1px solid var(--lightborder-color);
     box-shadow: -4px 4px 10px 5px rgba(244, 244, 249, 0.03);
 }
 
@@ -164,6 +164,12 @@ header.dark-mode input{
 .featured.dark-mode .b-cont:hover a{
     background-color: var(--dark-mode);
     color: var(--background-color);
+}
+
+.featured.dark-mode .f-grid-box > div:hover a{
+    background-color: var(--dark-mode);
+    color: var(--background-color);
+    border-color: var(--background-color);
 }
 
 .featured.dark-mode .f-grid-box .b-img{
