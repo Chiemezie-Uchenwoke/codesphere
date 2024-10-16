@@ -11,7 +11,7 @@
     --primary-lighter: #B3D3F9;
     --hover-color: #3f84c5;
     --secondary-color: #c1e1ff;
-    --accent-color: rgb(255, 112, 67);
+    --accent-color: #ff7043;
     --text-color: #333333;
     --background-color: rgb(244, 244, 249);
     --background-darker: #ececf1;
@@ -419,6 +419,12 @@ button.btn-style:hover{
     transition: 0.4s ease-in-out;
 }
 
+.f-grid-box > div:hover a{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    transition: all 0.4s;
+}
+
 a.f-view{
     text-decoration: none;
     border-radius: 5px;
@@ -439,7 +445,7 @@ a.f-view{
 }
 
 .insp-wr{
-    background-image: linear-gradient(to top right, var(--primary-color) 25%, var(--primary-lighter));
+    background-image: linear-gradient(to right, var(--primary-color) , var(--primary-light));
     /* background-color: var(--primary-color); */
     display: flex;
     justify-content: center;
