@@ -381,7 +381,7 @@ button.btn-style:hover{
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
-    filter: grayscale(0.4);
+    filter: grayscale(0.1);
     transition: 1.2s ease-in-out;
 }
 
