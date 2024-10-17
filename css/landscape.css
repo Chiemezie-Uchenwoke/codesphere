@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Color Variables ===== */
+:root{
+    --primary-color: #0A74DA;
+    --secondary-color: #c1e1ff;
+    --accent-color: rgb(255, 112, 67);
+    --text-color: #333333;
+    --background-color: #F4F4F9;
+}
+
+/* ===== body ===== */
+body{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+

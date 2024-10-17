@@ -52,15 +52,27 @@ body{
         margin-top: 3.3rem;
     }
 
+    /* Featured */
+    .f-grid-box .b-img{
+        height: 270px;
+    }
+
     /* Inspire */
     .inspire{
         margin-top: 3rem;
     }
 }
 
-
-/* small tabs */
+/* 600px break point */
 @media (min-width: 600px){
+     /* Featured */
+     .f-grid-box .b-img{
+        height: 290px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px){
     /* ===== Mobile left and right alignment ===== */
     .container{
         width: 95%;
@@ -84,29 +96,31 @@ body{
     .hero-wrapper{
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         padding: 3rem 0;
     }
 
     .hero-wrapper > div{
-        height: 70vh;
+        height: 21rem;
     }
 
     .carousel-img{
-        width: 140%;
+       width: 60%;
     }
 
     .hero-intro{
-        gap: 0;
+        width: 40%;
+        gap: 1rem;
         padding: 1rem;
     }
 
     .hero-intro h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .hero-intro p{
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
     }
 
     /* What you get section */
@@ -146,6 +160,15 @@ body{
         align-items: center;
     }
 
+     /* Contact */
+     .contact h2{
+        font-size: 1.4rem;
+    }
+
+    .contact-wrp > div{
+        height: 250px;
+    }
+
    /*  .contact-wrp > div{
         height: 300px;
     } */
@@ -153,31 +176,6 @@ body{
    /*  .contact1{
         display: block;
     } */
-}
-
-/* Tablets */
-@media (min-width: 768px){
-    .hero-wrapper > div{
-        height: 70vh;
-    }
-
-    .carousel-img{
-        width: 120%;
-    }
-
-    .hero-intro p{
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
-
-    /* Contact */
-    .contact h2{
-        font-size: 1.4rem;
-    }
-
-    .contact-wrp > div{
-        height: 250px;
-    }
 }
 
 /* laptops and above */
@@ -261,7 +259,7 @@ body{
     }
 
     .hero-wrapper > div{
-        height: 65vh;
+        height: 25rem;
     }
     
     .hero-intro h1{
@@ -269,7 +267,8 @@ body{
     }
 
     .hero-intro p{
-        line-height: 2.2rem;
+        font-size: 1.5rem;
+        line-height: 2.3rem;
     }
 
     .hero-links > a.explore,
@@ -486,5 +485,9 @@ body{
     /* Featured Post */
     .featured h2{
         font-size: 2.7rem;
+    }
+
+    .f-grid-box .b-img{
+        height: 290px;
     }
 }
