@@ -146,6 +146,10 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
     }  
+
+    .f-grid-box .b-img{
+        height: 220px;
+    }
     
     /* Inspire */
     .inspire{
