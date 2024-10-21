@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+}
+
+/* ===== Color Variables ===== */
+:root{
+    --primary-color: rgb(10, 116, 218);
+    --primary-light: #5A9CE6;
+    --primary-lighter: #B3D3F9;
+    --hover-color: #3f84c5;
+    --secondary-color: #c1e1ff;
+    --accent-color: #ff7043;
+    --text-color: #333333;
+    --background-white-col: rgba(244, 244, 249, 0.85);
+    --background-color: rgb(244, 244, 249);
+    --background-darker: #ececf1;
+    --border-color: rgb(210, 210, 210);
+}
+
+/* ===== body ===== */
+body{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+
+/* ===== Mobile left and right alignment ===== */
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.abt-hero{
+    background-color: var(--primary-color);
+    padding: 3rem 0;
+    text-align: justify;
+}
+
+.abt-h-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.abt-hero h1{
+    color: var(--background-color);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.abt-hero p{
+    color: var(--background-white-col);
+    line-height: 1.5rem;
+}

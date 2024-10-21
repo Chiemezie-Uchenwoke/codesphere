@@ -6,11 +6,16 @@
 
 /* ===== Color Variables ===== */
 :root{
-    --primary-color: #0A74DA;
+    --primary-color: rgb(10, 116, 218);
+    --primary-light: #5A9CE6;
+    --primary-lighter: #B3D3F9;
+    --hover-color: #3f84c5;
     --secondary-color: #c1e1ff;
-    --accent-color: rgb(255, 112, 67);
+    --accent-color: #ff7043;
     --text-color: #333333;
-    --background-color: #F4F4F9;
+    --background-color: rgb(244, 244, 249);
+    --background-darker: #ececf1;
+    --border-color: rgb(210, 210, 210);
 }
 
 /* ===== body ===== */
