@@ -39,7 +39,8 @@ body{
     }
 
     .abt-hero P{
-        line-height: 1.7rem;
+        line-height: 1.9rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -52,7 +53,7 @@ body{
     }
 
     .abt-hero{
-        padding: 5rem 0;
+        padding: 4rem 0;
     }
 
     .abt-h-wrap{
@@ -66,7 +67,8 @@ body{
     .abt-hero p{
         width: 768px;
         margin-inline: auto;
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        /* text-align: center; */
     }
 }

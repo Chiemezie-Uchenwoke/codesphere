@@ -37,6 +37,7 @@ body{
     background-color: var(--primary-color);
     padding: 3rem 0;
     text-align: justify;
+    hyphens: auto;
 }
 
 .abt-h-wrap{
