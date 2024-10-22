@@ -13,6 +13,7 @@
     --secondary-color: #c1e1ff;
     --accent-color: #ff7043;
     --text-color: #333333;
+    --text-lite: rgba(51, 51, 51, 0.3);
     --background-color: rgb(244, 244, 249);
     --background-darker: #ececf1;
     --border-color: rgb(210, 210, 210);
@@ -70,5 +71,10 @@ body{
         font-size: 1.5rem;
         line-height: 2.2rem;
         /* text-align: center; */
+    }
+
+    .get-started{
+        font-size: 1.5rem;
+        padding: 0.7rem 1.5rem;
     }
 }

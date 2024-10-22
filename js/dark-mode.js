@@ -50,6 +50,10 @@ function applyDarkMode(){
     // Footer
     document.querySelector("footer").classList.add("dark-mode");
 
+    // About Page
+    // About Hero
+    document.querySelector(".abt-hero").classList.add("dark-mode");
+
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
 }
@@ -75,6 +79,10 @@ function removeDarkMode(){
         document.querySelector(".contact").classList.remove("dark-mode");
         // Footer
         document.querySelector("footer").classList.remove("dark-mode");
+
+        // About Page
+        // About Hero
+        document.querySelector(".abt-hero").classList.remove("dark-mode");
        
         // Save preference in localStorage
         localStorage.setItem('theme', 'light');

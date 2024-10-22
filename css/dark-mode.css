@@ -12,6 +12,7 @@
     --text-color: #333333;
     --lightborder-color: #d0d0d0;
     --background-color: rgb(244, 244, 249);
+    --background-lite: rgba(244, 244, 249, 0.1);
     --dark-mode: #212429;
     --inspire: #24272c;
 }
@@ -94,6 +95,11 @@ body{
 }
 
 /* Header */
+
+header.dark-mode nav{
+    border-bottom: 1px solid var(--background-lite);
+    border-top: 1px solid var(--background-lite);
+}
 
 header.dark-mode .logo-txt{
     color: var(--background-color);
@@ -195,6 +201,15 @@ header.dark-mode input{
 
 footer.dark-mode{
     border-top: 3px solid var(--text-color);
+}
+
+/* About Page Hero*/
+.abt-h-wrap.dark-mode  h1{
+    color: var(--background-color);
+}
+
+.abt-hero.dark-mode  p{
+    color: var(--background-color);
 }
 
 /* Laptops and above */

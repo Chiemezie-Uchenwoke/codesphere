@@ -7,6 +7,7 @@
 /* ===== Color Variables ===== */
 :root{
     --primary-color: rgb(10, 116, 218);
+    --primary-lite: rgba(10, 116, 218, 0.3);
     --primary-light: #5A9CE6;
     --primary-lighter: #B3D3F9;
     --hover-color: #3f84c5;
@@ -83,6 +84,8 @@ header > nav{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    border-bottom: 1px solid var(--primary-lite);
+    border-top: 1px solid var(--primary-lite);
     /* height: 15vh; */
 }
 
