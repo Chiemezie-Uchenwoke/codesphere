@@ -94,6 +94,16 @@ body{
     color: var(--background-color);
 }
 
+/* Global Styles */
+/* .dark-mode h1 {
+    color: var(--background-color);
+}
+
+.dark-mode p {
+    color: var(--background-color);
+} */
+
+
 /* Header */
 
 header.dark-mode nav{
@@ -193,7 +203,7 @@ header.dark-mode input{
     background-color: var(--dark-mode);
     color: var(--background-color);
 }
-
+/* inspire */
 .inspire.dark-mode .insp-wr{
     background-image: linear-gradient(to top right, var(--background-color), var(--lightborder-color));
     color: var(--dark-mode);
@@ -203,14 +213,14 @@ footer.dark-mode{
     border-top: 3px solid var(--text-color);
 }
 
-/* About Page Hero*/
-.abt-h-wrap.dark-mode  h1{
+/* About Page */
+.abt-hero.dark-mode h1,
+.abt-hero.dark-mode p{
     color: var(--background-color);
 }
 
-.abt-hero.dark-mode  p{
-    color: var(--background-color);
-}
+
+
 
 /* Laptops and above */
 @media (min-width: 1000px){
