@@ -1,6 +1,6 @@
 // Mobile Nav
-let hamburger = document.querySelector("span#hamburger");
-let mobileNavCont = document.querySelector(".nav-wrapper");
+const hamburger = document.querySelector("span#hamburger");
+const mobileNavCont = document.querySelector(".nav-wrapper");
 
 hamburger.addEventListener("click", showNav);
 
@@ -31,7 +31,7 @@ document.querySelector(".play-txt").style.display = "none";
 } */
 
 // Carousel
-let carouselDivImage = document.getElementById("carousel-img");
+const carouselDivImage = document.getElementById("carousel-img");
 
 function imageCarousel(){
     let carouselImages = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg", "img7.jpg"];

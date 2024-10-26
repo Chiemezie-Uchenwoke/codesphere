@@ -133,7 +133,7 @@ body{
 
     /* Our Mission */
     .mission{
-        padding: 5rem 0;
+        padding: 6rem 0;
     }
 
     .mission h2 {
@@ -142,8 +142,8 @@ body{
 
     .mis-flx{
         width: 100%;
-        justify-content: space-between;
-        /* gap: 5rem; */
+        justify-content: center;
+        gap: 5rem;
     }
 
     .fl-img {
