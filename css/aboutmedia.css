@@ -66,8 +66,10 @@ body{
     }
 
     .abt-hero P{
+        width: 650px;
         line-height: 2.5rem;
         font-size: 1.3rem;
+        text-align: center;
     }
 
     /* Our mission */
@@ -120,9 +122,8 @@ body{
     .abt-hero p{
         width: 768px;
         margin-inline: auto;
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         line-height: 2.4rem;
-        /* text-align: center; */
     }
 
     .get-started{
