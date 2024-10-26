@@ -27,6 +27,32 @@ body{
     background-color: var(--background-color);
 }
 
+/* small screen */
+@media (min-width: 400px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* small screen */
+@media (min-width: 500px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* 600px break point */
+@media (min-width: 600px){
+     /* Featured */
+    
+}
+
+
+
 /* Tablets */
 @media (min-width: 768px){
     /* ===== Mobile left and right alignment ===== */
@@ -40,7 +66,33 @@ body{
     }
 
     .abt-hero P{
-        line-height: 1.9rem;
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* Our mission */
+    .mission{
+        padding: 3.5rem 0;
+    }
+
+    .mis-flx {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .fl-img {
+        width: 45%;
+        max-height: 250px; /* Adjust height for medium screens */
+    }
+
+    .mis-cnt{
+        width: 45%;
+        gap: 1rem;
+    }
+
+    .mission p {
+        line-height: 2rem;
         font-size: 1.1rem;
     }
 }
@@ -76,5 +128,66 @@ body{
     .get-started{
         font-size: 1.5rem;
         padding: 0.7rem 1.5rem;
+    }
+
+    /* Our Mission */
+    .mission{
+        padding: 5rem 0;
+    }
+
+    .mission h2 {
+        font-size: 2rem;
+    }
+
+    .mis-flx{
+        width: 100%;
+        justify-content: space-between;
+        /* gap: 5rem; */
+    }
+
+    .fl-img {
+        width: 46%;
+        /* max-width: 400px; */
+        max-height: 350px; /* Adjust height for large screens */
+    }
+
+    .mis-cnt{
+        /* align-self: start; */
+        gap: 1.5rem;
+    }
+
+    .mission p {
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1500px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .abt-hero p{
+        width: 1000px;
+        font-size: 1.7rem;
+        line-height: 3.4rem;
+        /* text-align: center; */
+    }
+
+    .mis-flx{
+        gap: 10rem;
+    }
+
+    .fl-img {
+        width: 40%;
+        max-height: 430px; /* Adjust height for large screens */
+        flex-grow: 1;
+        
+    }
+
+    .mission p {
+        line-height: 3.2rem;
+        font-size: 1.7rem;
     }
 }

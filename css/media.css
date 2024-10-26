@@ -6,7 +6,7 @@
 
 /* ===== Color Variables ===== */
 :root{
-    --primary-color: rgb(10, 116, 218);
+    --primary-color: #0a74da;
     --primary-light: #5A9CE6;
     --primary-lighter: #B3D3F9;
     --hover-color: #3f84c5;
@@ -195,6 +195,10 @@ body{
         margin: 0 auto;
     }
 
+    header{
+        width: 100%;
+    }
+
     p.intro-txt,
     .play-txt{
         font-size: 1rem;
@@ -207,7 +211,7 @@ body{
 
     header > nav{
         width: 100%;
-        padding: 1.2rem 2.8rem;
+        padding: 1rem 2.8rem;
     }
 
     header > nav > ul,
@@ -304,7 +308,7 @@ body{
 
     .g-cont p{
         font-size: 1.5rem;
-        line-height: 2.3rem;
+        line-height: 2.5rem;
     }
 
     /* Featured Post */

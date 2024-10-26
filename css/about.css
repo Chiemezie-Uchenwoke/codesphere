@@ -76,3 +76,70 @@ body{
     margin-top: 1.5rem;
     font-weight: 700;
 }
+
+/* Our Mission */
+.mission{
+    margin-top: 3rem;
+    background-color: var(--background-darker);
+    padding: 3rem 0;
+}
+
+.mission h2{
+    color: var(--text-color);
+    font-size: 1.55rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.mis-flx{
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.fl-img{
+    width: 100%;
+    max-height: 300px;
+    /* height: 13rem; */
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mis-flx img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: 1.2s ease-in-out;
+}
+
+.mis-flx img:hover{
+    transform: rotate(2deg) scale(1.2);
+    /* filter: grayscale(0); */
+    border-radius: 5px;
+}
+
+.mis-cnt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mission p{
+    text-align: justify;
+    hyphens: auto;
+    /* font-size: 1rem; */
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    color: var(--text-lite-co);
+}
+
+/* Focus */
+.focus{
+    margin-top: 5rem;
+}

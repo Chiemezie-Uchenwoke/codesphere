@@ -25,6 +25,10 @@ function revealText(){
 setInterval(revealText, 5000);
 document.querySelector(".play-txt").style.display = "none";
 
+// Hide Intro text in Header onScroll
+/* function myfunction(){
+    document.querySelector(".intro-txt").style.display = "none";
+} */
 
 // Carousel
 let carouselDivImage = document.getElementById("carousel-img");
