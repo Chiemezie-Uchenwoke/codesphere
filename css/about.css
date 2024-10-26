@@ -81,7 +81,7 @@ body{
 .mission{
     margin-top: 3rem;
     background-color: var(--background-darker);
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 .mission h2{
@@ -95,7 +95,7 @@ body{
     /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .fl-img{
