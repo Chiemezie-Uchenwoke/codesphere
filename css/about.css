@@ -194,7 +194,7 @@ body{
 
 .focus-flx-cont i{
     font-size: 3rem;
-    color: var(--text-lite-co);
+    color: var(--primary-color);
 }
 
 .focus-flx-cont > div:hover i{
