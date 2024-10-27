@@ -180,6 +180,7 @@ body{
 .focus-flx-cont > div:hover{
     background-color: var(--primary-color);
     color: var(--background-color);
+    transform: translateY(-0.3rem);
 }
 
 .focus-flx-cont > div:hover h3{
