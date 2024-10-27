@@ -97,6 +97,30 @@ body{
         line-height: 2rem;
         font-size: 1.1rem;
     }
+
+    /* Focus */
+    .focus-flx-cont{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .focus-flx-cont > div{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 47.5%;
+        height: 25rem;
+        box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.03);
+    }
+
+    .focus-flx-cont p{
+        text-align: center;
+        hyphens: none;
+        line-height: 2rem;
+        font-size: 1.1rem;
+    }
 }
 
 /* laptops and above */
@@ -160,6 +184,26 @@ body{
     .mission p {
         line-height: 2.5rem;
         font-size: 1.3rem;
+    }
+
+    /* Focus */
+    .focus-flx-cont > div{
+        width: 31.31%;
+        height: 25rem;
+        gap: 3rem;
+
+    }
+
+    .focus h2{
+        font-size: 2.3rem;
+    }
+
+    .focus i{
+        font-size: 4rem;
+    }
+
+    .focus-flx-cont > div > div{
+        gap: 1.5rem;
     }
 }
 

@@ -13,7 +13,9 @@
     --hover-color: #3f84c5;
     --secondary-color: #c1e1ff;
     --accent-color: #ff7043;
+    --accent-lite: rgba(255, 112, 67, 0.9);
     --text-color: #333333;
+    --text-lite: rgba(51, 51, 51, 0.3);
     --text-lite-co: rgba(51, 51, 51, 0.7);
     --background-white-col: rgba(244, 244, 249, 0.85);
     --background-color: rgb(244, 244, 249);
@@ -142,4 +144,76 @@ body{
 /* Focus */
 .focus{
     margin-top: 5rem;
+}
+
+.focus-wrp{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.focus-wrp h2{
+    color: var(--text-color);
+    font-size: 1.55rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.focus-flx-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 0 5rem 0;
+}
+
+.focus-flx-cont > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    border: 0.5px solid var(--border-color);
+    border-radius: 5px;
+    /* flex-grow: 1; */
+    transition: 0.4s;
+}
+
+.focus-flx-cont > div:hover{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.focus-flx-cont > div:hover h3{
+    color: goldenrod;
+}
+
+.focus-flx-cont > div:hover p{
+    color: var(--background-color);
+}
+
+.focus-flx-cont i{
+    font-size: 3rem;
+    color: var(--text-lite-co);
+}
+
+.focus-flx-cont > div:hover i{
+    color: var(--background-darker);
+}
+
+.focus-flx-cont p{
+    color: var(--text-lite-co);
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.focus-flx-cont h3{
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.focus-flx-cont > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
