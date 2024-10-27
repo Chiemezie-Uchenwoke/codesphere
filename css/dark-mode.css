@@ -161,11 +161,20 @@ header.dark-mode input{
     color: var(--accent-color);
 }
 
+.w-get.dark-mode h2{
+    color: var(--background-color);
+}
+
 /* Featured Post */
 .featured.dark-mode .f-grid-box > div{
     background-color: var(--dark-mode);
     border: 1px solid var(--lightborder-color);
     box-shadow: -4px 4px 10px 5px rgba(244, 244, 249, 0.03);
+}
+
+.featured.dark-mode h2,
+.featured.dark-mode h3{
+    color: var(--background-color);
 }
 
 .featured.dark-mode a{
