@@ -65,7 +65,7 @@ body{
 .abt-hero p{
     color: var(--text-lite-co);
     line-height: 1.7rem;
-    text-align: justify;
+    text-align: center;
 }
 
 .get-started{
