@@ -185,7 +185,7 @@ body{
 }
 
 .focus-flx-cont > div:hover h3{
-    color: goldenrod;
+    color: var(--background-darker);
 }
 
 .focus-flx-cont > div:hover p{
