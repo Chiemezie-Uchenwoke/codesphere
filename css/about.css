@@ -247,7 +247,7 @@ body{
 /* Our Values */
 .values{
     margin-top: 1rem;
-    background-color: var(--primary-light);
+    background-color: var(--primary-color);
     padding: 3rem 0;
 }
 
