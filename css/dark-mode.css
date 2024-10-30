@@ -248,6 +248,23 @@ footer.dark-mode{
     color: var(--background-color);
 }
 
+/* Our Values */
+.values.dark-mode h2{
+    color: var(--background-color);
+}
+
+.values.dark-mode{
+    background-color: var(--dark-mode);
+}
+
+.values.dark-mode .flx-values-cont > div{
+    background-color: var(--dark-mode);
+}
+
+.values.dark-mode p{
+    color: var(--background-color);
+}
+
 
 /* Laptops and above */
 @media (min-width: 1000px){

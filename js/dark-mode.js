@@ -56,6 +56,8 @@ function applyDarkMode(){
     document.querySelector(".mission")?.classList.add("dark-mode");
     // Our Focus
     document.querySelector(".focus")?.classList.add("dark-mode");
+    // Our Values
+    document.querySelector(".values")?.classList.add("dark-mode");
    
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -88,7 +90,9 @@ function removeDarkMode(){
         // Our Mission
         document.querySelector(".mission")?.classList.remove("dark-mode");
         // Our Focus
-    document.querySelector(".focus")?.classList.remove("dark-mode");
+        document.querySelector(".focus")?.classList.remove("dark-mode");
+        // Our Values
+        document.querySelector(".values")?.classList.remove("dark-mode");
 
     
         // Save preference in localStorage
