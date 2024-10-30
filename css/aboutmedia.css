@@ -121,6 +121,25 @@ body{
         line-height: 2rem;
         font-size: 1.1rem;
     }
+
+    /* Our Values */
+    .values{
+        padding: 3rem 0;
+    }
+
+    .values p{
+        line-height: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .flx-values-cont > div{
+        border-width: 3px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .flx-values-cont > div:hover{
+        box-shadow: 3px 3px 5px 8px rgba(0, 0, 0, 0.2);
+    }
 }
 
 /* laptops and above */
@@ -210,6 +229,58 @@ body{
 
     .focus-flx-cont > div > div{
         gap: 1.5rem;
+    }
+
+    /* Our Values */
+    .values{
+        padding: 5rem 0;
+    }
+
+    .values h2{
+        font-size: 2.3rem;
+    }
+
+    .values h3{
+        font-size: 1.5rem;
+    }
+
+    .values p{
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+    }
+
+    .flx-values-cont{
+        padding: 3rem 0;
+        gap: 3rem;
+    }
+
+    .flx-values-cont > div{
+        border-width: 5px;
+    }
+
+    .values i{
+        display: block;
+        position: relative;
+        right: 2rem;
+        font-size: 2.5rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .flx-values-cont > div:hover i{
+        transform: scale(1.25);
+        color: var(--primary-light);
+        /* animation: animate-icons 1s infinite; */
+    }
+
+    @keyframes animate-icons{
+        0%{
+            color: var(--primary-light);
+        }
+        
+        100%{
+            color: var(--text-color);
+            /* transform: scale(1.1); */
+        }
     }
 }
 
