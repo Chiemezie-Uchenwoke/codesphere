@@ -272,6 +272,7 @@ body{
 }
 
 .values i{
+    /* transform: scale(1.25); */
     display: none;
 }
 
@@ -283,7 +284,7 @@ body{
 }
 
 .flx-values-cont > div{
-    background-color: var(--background-darker);
+    background-color: var(--secondary-color);
     padding: 2rem 1rem;
     border-radius: 5px;
     border-top: 2px solid var(--primary-light);

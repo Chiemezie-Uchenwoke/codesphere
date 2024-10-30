@@ -268,7 +268,7 @@ body{
 
     .flx-values-cont > div:hover i{
         transform: scale(1.25);
-        color: var(--primary-light);
+        color: var(--primary-color);
         animation: animate-icons 5s infinite;
         /* transition: all 0.5s ease-in-out; */
     }
