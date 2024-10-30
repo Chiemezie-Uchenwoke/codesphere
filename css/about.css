@@ -247,12 +247,12 @@ body{
 /* Our Values */
 .values{
     margin-top: 1rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-light);
     padding: 3rem 0;
 }
 
 .values h2{
-    color: var(--text-color);
+    color: var(--background-color);
     font-size: 1.55rem;
     text-transform: capitalize;
     font-weight: 800;
@@ -286,7 +286,7 @@ body{
     background-color: var(--background-darker);
     padding: 2rem 1rem;
     border-radius: 5px;
-    border-top: 2px solid var(--secondary-color);
+    border-top: 2px solid var(--primary-light);
     display: flex;
     flex-direction: column;
     gap: 1rem;
