@@ -265,6 +265,44 @@ footer.dark-mode{
     color: var(--background-color);
 }
 
+/* Blog Page */
+.panel.dark-mode{
+    background-color: var(--dark-mode);
+    border-color: var(--lightborder-color) !important;
+}
+
+.panel.dark-mode .panel-bar button{
+    background-color: var(--dark-mode);
+}
+
+.panel.dark-mode aside{
+    background-color: var(--dark-mode);
+}
+
+.panel.dark-mode .sd-bar-cont{
+    background-color: var(--dark-mode);
+}
+
+.panel.dark-mode a{
+    color: var(--lightborder-color);
+}
+
+/* How to style scroll bar */
+/* Dark mode scrollbar styles */
+.panel.dark-mode ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.panel.dark-mode ::-webkit-scrollbar-track {
+    background: var(--dark-mode); /* Background of the scrollbar track */
+}
+
+.panel.dark-mode ::-webkit-scrollbar-thumb {
+    background-color: var(--lightborder-color); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounds the corners of the scrollbar thumb */
+    border: 3px solid var(--dark-mode); /* Adds a gap between thumb and track */
+}
+
 
 /* Laptops and above */
 @media (min-width: 1000px){

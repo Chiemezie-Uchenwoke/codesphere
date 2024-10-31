@@ -58,6 +58,10 @@ function applyDarkMode(){
     document.querySelector(".focus")?.classList.add("dark-mode");
     // Our Values
     document.querySelector(".values")?.classList.add("dark-mode");
+
+    // Blog-Page
+    // Panel
+    document.querySelector(".panel")?.classList.add("dark-mode");
    
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -93,6 +97,9 @@ function removeDarkMode(){
         document.querySelector(".focus")?.classList.remove("dark-mode");
         // Our Values
         document.querySelector(".values")?.classList.remove("dark-mode");
+        // Blog-Page
+        // Panel
+        document.querySelector(".panel")?.classList.remove("dark-mode");
 
     
         // Save preference in localStorage
