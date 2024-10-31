@@ -121,17 +121,17 @@ const instagram = document.getElementById("instagram");
 const mail = document.getElementById("email");
 
 linkedin.addEventListener("click", function goToLinkedin(){
-    window.open("https://www.linkedin.com/in/chiemezieuche/", "_blank");
-});
+        window.open("https://www.linkedin.com/in/chiemezieuche/", "_blank");
+    });
 
 gitHub.addEventListener("click", function openGitHub(){
-    window.open("https://github.com/Chiemezie-Uchenwoke", "_blank");
-});
+        window.open("https://github.com/Chiemezie-Uchenwoke", "_blank");
+    });
 
 instagram.addEventListener("click", function openIg(){
-    window.open("https://www.instagram.com/chiemezie_uchenwoke?igsh=MWs4aW9tenBuYnpyMQ==", "_blank");
-});
+        window.open("https://www.instagram.com/chiemezie_uchenwoke?igsh=MWs4aW9tenBuYnpyMQ==", "_blank");
+    });
 
 mail.addEventListener("click", function openMail(){
-    window.open("mailto:uchenwoke.chiemezie@gmail.com", "_blank");
-});
+        window.open("mailto:uchenwoke.chiemezie@gmail.com", "_blank");
+    });
