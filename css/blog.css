@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+}
+
+/* ===== Color Variables ===== */
+:root{
+    --primary-color: rgb(10, 116, 218);
+    --primary-light: #5A9CE6;
+    --primary-lighter: #B3D3F9;
+    --hover-color: #3f84c5;
+    --secondary-color: #c1e1ff;
+    --accent-color: #ff7043;
+    --accent-lite: rgba(255, 112, 67, 0.9);
+    --text-color: #333333;
+    --text-lite: rgba(51, 51, 51, 0.3);
+    --text-lite-co: rgba(51, 51, 51, 0.7);
+    --background-white-col: rgba(244, 244, 249, 0.85);
+    --background-color: rgb(244, 244, 249);
+    --background-darker: #ececf1;
+    --border-color: rgb(201, 198, 198);
+}
+
+/* ===== body ===== */
+body{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+
+/* ===== Mobile left and right alignment ===== */
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+
+/* Panel */
+.panel{
+    background-color: var(--background-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+    z-index: 0;
+}
+
+.panel-bar{
+    padding: 0.7rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 0;
+}
+
+.panel button{
+    all: unset;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.panel button i{
+    font-size: 1.1rem;
+}
+
+.panel span{
+    text-transform: capitalize;
+}
+
+/* Side bar */
+aside{
+    background-color: var(--background-color);
+    width: 14rem;
+    height: 90vh;
+    border: 1px solid var(--border-color);
+    padding: 2rem 0.8rem;
+    overflow-y: scroll;
+    box-shadow: -3px 3px 5px 7px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: -15rem;
+    top: 0;
+    z-index: 10000;
+    display: none;
+}
+
+.sd-bar-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sd-first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sd-first button{
+    all: unset;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.sd-categ,
+.sd-bar-recent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sd-categ span,
+.sd-bar-recent span{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sd-categ i,
+.sd-bar-recent i{
+    font-size: 0.4rem;
+}
+
+.sd-categ a,
+.sd-bar-recent a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.about-me p{
+    font-size: 0.8rem;
+    text-align: left;
+    hyphens: auto;
+    line-height: 1.4rem;
+    letter-spacing: 0.3px;
+}
+
+.about-me img{
+    border-radius: 50%;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.connect span{
+    display: flex;
+    gap: 1rem;
+}
+
+.connect i{
+    font-size: 1.2rem;
+}
+
+.animate{
+    animation: sd-animate 1s forwards;
+}
+
+.rm-animate{
+    animation: sd-rm-animate 1s backwards;
+}
+
+/* Animate Side Bar */
+@keyframes sd-animate{
+    0%{
+        transform: translateX(0rem);
+    }
+
+    100%{
+        transform: translateX(15rem);
+    }
+}
+
+/* Remove Animation on Side Bar */
+@keyframes sd-rm-animate{
+    0%{
+        transform: translateX(15rem);
+    }
+
+    100%{
+        transform: translateX(0rem);
+    }
+}

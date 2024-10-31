@@ -16,6 +16,8 @@
      <link rel="stylesheet" href="../css/main.css">
      <link rel="stylesheet" href="../css/media.css">
      <link rel="stylesheet" href="../css/dark-mode.css">
+     <link rel="stylesheet" href="../css/blog.css">
+     <link rel="stylesheet" href="../css/blogmedia.css">
      <link rel="stylesheet" href="../css/landscape.css">
 
      <!-- Google Fonts - Lato -->
@@ -77,9 +79,74 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-     <section class="hero">
-        Hero
+    <!-- Panel -->
+     <section class="panel" id="panel">
+        <div class="panel-bar container">
+            <button id="panel-open"><i class="fa-solid fa-bars-staggered"></i></button> <span>blog posts</span>
+        </div>
+
+        <!-- Panel side bar -->
+      <aside class="side-bar" id="side-bar">
+        <div class="sd-bar-cont">
+            <div class="sd-first">
+                <span>codesphere</span>
+                <button id="panel-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="sd-categ">
+                <h4>Categories</h4>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">HTML</a>
+                </span>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">CSS</a>
+                </span>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">JavaScript</a>
+                </span>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">Latest Post</a>
+                </span>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">Trending</a>
+                </span>
+            </div>
+
+            <div class="sd-bar-recent">
+                <h4>Recent Post</h4>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">Post 1</a>
+                </span>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">Post 2</a>
+                </span>
+                <span>
+                    <i class="fa-solid fa-square"></i> <a href="#">Post 3</a>
+                </span>
+            </div>
+
+            <div class="about-me">
+                <h4>About Me</h4>
+                <img src="../assets/images/Chiemezie.jpg" alt="Image of the Author" title="Chiemezie Uchenwoke, Front-End Developer" height="80">
+                <p>
+                    Hi! I'm Chiemezie Uchenwoke, a frontend developer passionate about building responsive and user-friendly web experiences.  
+                </p>
+                <p>
+                    Welcome to Codesphere—where we bring coding ideas to life! 
+                </p>
+            </div>
+
+            <div class="connect">
+                <h4>Let's Connect</h4>
+                <span>
+                    <i class="fa-brands fa-linkedin" id=""></i>
+                    <i class="fa-brands fa-github" id=""></i>
+                    <i class="fa-brands fa-square-instagram" id=""></i>
+                    <i class="fa-solid fa-square-envelope" id=""></i>
+                </span>
+            </div>
+        </div>
+      </aside>
      </section>
 
       <!-- Dark Mode -->
@@ -95,8 +162,15 @@
         </div>
      </div>
 
+     
+
+    <section class="cont" style="text-align: center; font-size: 1.5rem; z-index: -6;">
+        Contents Here
+    </section>
+
     <script src="../js/main.js"></script>
     <script src="../js/dark-mode.js"></script>
+    <script src="../js/blog.js"></script>
 </body>
 
 </html>

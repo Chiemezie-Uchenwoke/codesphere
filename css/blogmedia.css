@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Color Variables ===== */
+:root{
+    --primary-color: rgb(10, 116, 218);
+    --primary-light: #5A9CE6;
+    --primary-lighter: #B3D3F9;
+    --hover-color: #3f84c5;
+    --secondary-color: #c1e1ff;
+    --accent-color: #ff7043;
+    --text-color: #333333;
+    --text-lite: rgba(51, 51, 51, 0.3);
+    --background-color: rgb(244, 244, 249);
+    --background-darker: #ececf1;
+    --border-color: rgb(210, 210, 210);
+}
+
+
+/* ===== body ===== */
+body{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+
+/* small screen */
+@media (min-width: 400px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* small screen */
+@media (min-width: 500px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* 600px break point */
+@media (min-width: 600px){
+     /* Featured */
+    
+}
+
+
+
+/* Tablets */
+@media (min-width: 768px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+/* laptops and above */
+@media (min-width: 1000px){
+    /* ===== Mobile left and right alignment ===== */
+    .container{
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media (min-width: 1500px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+}
