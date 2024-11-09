@@ -219,7 +219,7 @@ aside{
 .post{
     position: relative;
     z-index: 1;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     gap: 0.75rem;
     background-color: var(--background-color);
@@ -299,5 +299,11 @@ aside{
 }
 
 .cont p{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.post h3{
+    font-size: 0.9rem;
     line-height: 1.5rem;
 }

@@ -95,6 +95,20 @@ body{
         padding: 2rem 0;
     }
 
+    .post .blg-img{
+        height: 230px;
+    }
+
+    .post h3{
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+    .post p{
+        font-size: 0.95rem;
+        line-height: 1.7rem;
+    }
+
     
 }
 
@@ -120,6 +134,11 @@ body{
         width: 80%;
         margin: 0 auto;
     }
+
+    .post .blg-img{
+        height: 250px;
+    }
+
 
     
 }
