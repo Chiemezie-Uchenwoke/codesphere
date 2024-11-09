@@ -257,7 +257,7 @@ aside{
 
 .post:hover img{
     position: relative;
-    transform: rotate(2deg) scale(1.2);
+    transform: rotate(2deg) scale(1.12);
     filter: grayscale(0);
     border-radius: 5px;
 }
