@@ -61,6 +61,11 @@ body{
         margin: 0 auto;
     }
 
+    .blg-grid-cont{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
     
 }
 
@@ -70,6 +75,11 @@ body{
     .container{
         width: 93%;
         margin: 0 auto;
+    }
+
+    .blg-grid-cont{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
     }
 
     
