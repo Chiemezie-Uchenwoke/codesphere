@@ -294,7 +294,7 @@ aside{
 .blg-descrpt:hover a{
     background-color: var(--accent-color);
     border-color: var(--accent-color);
-    /* transform: translateY(-0.2rem); */
+    transform: translateY(-0.2rem);
     transition: all 0.4s;
 }
 
