@@ -65,6 +65,30 @@ body{
         margin: 0 auto;
     }
 
+    aside{
+        width: 17rem;
+    }
+
+    .sd-bar-cont{
+        padding: 1.5rem;
+    }
+
+    .sd-first{
+        margin-bottom: 0;
+    }
+
+    /* Remove Animation on Side Bar */
+    @keyframes sd-rm-animate{
+        0%{
+            transform: translateX(15rem);
+        }
+
+        100%{
+            transform: translateX(-3rem);
+        }
+    }
+
+
     .blg-grid-cont{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, auto);
@@ -81,6 +105,7 @@ body{
         width: 93%;
         margin: 0 auto;
     }
+
 
     .blg-grid-cont{
         grid-template-columns: repeat(3, 1fr);
