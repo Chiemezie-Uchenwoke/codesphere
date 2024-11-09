@@ -64,6 +64,7 @@ body{
     .blg-grid-cont{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, auto);
+        padding: 2rem 0;
     }
 
     
