@@ -129,7 +129,7 @@ aside{
 
 .sd-categ a,
 .sd-bar-recent a{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-decoration: none;
     color: var(--text-color);
 }
@@ -142,7 +142,7 @@ aside{
 }
 
 .about-me p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: left;
     hyphens: auto;
     line-height: 1.4rem;
