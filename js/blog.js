@@ -50,6 +50,13 @@ mailPanel.addEventListener("click", function openMail(){
     const trendingPosts = document.getElementById("trending");
     const allPosts = document.getElementById("allpost");
 
+    // All Post Filter
+    allPosts.addEventListener("click", () => {
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "block";
+        });
+    });
+
     htmlFilter.addEventListener("click", () => {
         // Convert NodeList to an array and hide all posts by default
         // HTML filter
@@ -127,9 +134,4 @@ mailPanel.addEventListener("click", function openMail(){
         });
     });
 
-    // All Post Filter
-    allPosts.addEventListener("click", () => {
-        Array.from(allBlogPosts).forEach((post) => {
-            post.style.display = "block";
-        });
-    });
+  
