@@ -134,6 +134,11 @@ aside{
     color: var(--text-color);
 }
 
+.sd-categ a:hover,
+.sd-bar-recent a:hover{
+    color: var(--primary-color);
+}
+
 .about-me{
     display: flex;
     flex-direction: column;
