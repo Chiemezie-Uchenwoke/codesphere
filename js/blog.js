@@ -39,3 +39,97 @@ instagramPanel.addEventListener("click", function openIg(){
 mailPanel.addEventListener("click", function openMail(){
         window.open("mailto:uchenwoke.chiemezie@gmail.com", "_blank");
     });
+
+    // Filter Blog Post.
+    const blogContentBox = document.querySelector(".blg-grid-cont");
+    const allBlogPosts = document.querySelectorAll(".post");
+    const htmlFilter = document.getElementById("html");
+    const cssFilter = document.getElementById("css");
+    const javascriptFilter = document.getElementById("js");
+    const latestFilter = document.getElementById("latest");
+    const trendingPosts = document.getElementById("trending");
+    const allPosts = document.getElementById("allpost");
+
+    htmlFilter.addEventListener("click", () => {
+        // Convert NodeList to an array and hide all posts by default
+        // HTML filter
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "none";
+        });
+
+        // Convert NodeList to an array and filter
+        const htmlPosts = Array.from(allBlogPosts).filter((post) => {
+            return post.classList.contains("html");
+        });
+        
+        htmlPosts.forEach((post) => {
+            post.style.display = "block";
+        });
+    });
+
+    // CSS Filter
+    cssFilter.addEventListener("click", () => {
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "none";
+        });
+
+        const cssPosts = Array.from(allBlogPosts).filter((post) => {
+            return post.classList.contains("css");
+        });
+
+        cssPosts.forEach((post) => {
+            post.style.display = "block";
+        });
+    });
+
+    // JS filter
+    javascriptFilter.addEventListener("click", () => {
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "none";
+        });
+
+        const jsPost = Array.from(allBlogPosts).filter((post) => {
+            return post.classList.contains("javascript");
+        });
+
+        jsPost.forEach((post) => {
+            post.style.display = "block";
+        });
+    });
+
+    // Latest Filter
+    latestFilter.addEventListener("click", () => {
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "none";
+        });
+
+        const allLatestPost = Array.from(allBlogPosts).filter((post) => {
+            return post.classList.contains("recent");
+        });
+
+        allLatestPost.forEach((post) => {
+            post.style.display = "block";
+        });
+    });
+
+    // Trending post
+    trendingPosts.addEventListener("click", () => {
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "none";
+        });
+
+        const trendingPost = Array.from(allBlogPosts).filter((post) => {
+            return post.classList.contains("trending");
+        });
+
+        trendingPost.forEach((post) => {
+            post.style.display = "block";
+        });
+    });
+
+    // All Post Filter
+    allPosts.addEventListener("click", () => {
+        Array.from(allBlogPosts).forEach((post) => {
+            post.style.display = "block";
+        });
+    });
