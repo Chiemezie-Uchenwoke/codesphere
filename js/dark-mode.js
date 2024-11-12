@@ -62,6 +62,8 @@ function applyDarkMode(){
     // Blog-Page
     // Panel
     document.querySelector(".panel")?.classList.add("dark-mode");
+    // Blog Post
+    document.querySelector(".cont")?.classList.add("dark-mode");
    
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -100,6 +102,8 @@ function removeDarkMode(){
         // Blog-Page
         // Panel
         document.querySelector(".panel")?.classList.remove("dark-mode");
+        // Blog Post
+        document.querySelector(".cont")?.classList.remove("dark-mode");
 
     
         // Save preference in localStorage

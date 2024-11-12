@@ -304,6 +304,15 @@ footer.dark-mode{
     border: 3px solid var(--dark-mode); /* Adds a gap between thumb and track */
 }
 
+/* Blog Post */
+.cont.dark-mode article{
+    background-color: var(--dark-mode);
+}
+
+.cont.dark-mode article:hover{
+    background-color: var(--text-color);
+}
+
 
 /* Laptops and above */
 @media (min-width: 1000px){
