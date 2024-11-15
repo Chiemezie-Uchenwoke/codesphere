@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+}
+
+/* ===== Color Variables ===== */
+:root{
+    --primary-color: rgb(10, 116, 218);
+    --primary-light: #5A9CE6;
+    --primary-lighter: #B3D3F9;
+    --hover-color: #3f84c5;
+    --secondary-color: #c1e1ff;
+    --accent-color: #ff7043;
+    --accent-lite: rgba(255, 112, 67, 0.9);
+    --text-color: #333333;
+    --text-lite: rgba(51, 51, 51, 0.3);
+    --text-lite-co: rgba(51, 51, 51, 0.7);
+    --background-white-col: rgba(244, 244, 249, 0.85);
+    --background-color: rgb(244, 244, 249);
+    --background-darker: #ececf1;
+    --border-color: rgb(224, 224, 224);
+}
+
+/* ===== body ===== */
+body{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+}
+
+/* ===== Mobile left and right alignment ===== */
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.post-content{
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+.post-content h1{
+    font-size: 1.5rem;
+}
+
+.post-content > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post-content p{
+    text-align: justify;
+    hyphens: auto;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
+
+.img-wrapper{
+    width: 80%;
+    max-width: 500px;
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.post-content i{
+    color: var(--primary-color);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info span{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .post-content{
+        width: 75%;
+        margin: 2rem auto;
+        line-height: 2.2rem;
+    }
+
+    .post-content h1{
+        width: 100%;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        letter-spacing: 0.5px;
+    }
+
+    .post-content p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--text-color);
+        letter-spacing: 0.5px;
+        hyphens: none;
+    }
+
+    .info{
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .post-content{
+        width: 75%;
+        margin: 2rem auto;
+        line-height: 2.5rem;
+    }
+
+    .post-content h1{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.5px;
+    }
+
+    .post-content p{
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: var(--text-color);
+        letter-spacing: 0.5px;
+    }
+}
