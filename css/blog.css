@@ -130,6 +130,7 @@ aside{
 .sd-categ a,
 .sd-bar-recent a{
     font-size: 0.9rem;
+    line-height: 1.4rem;
     text-decoration: none;
     color: var(--text-color);
 }
