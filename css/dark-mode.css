@@ -318,7 +318,9 @@ footer.dark-mode{
 }
 
 /* Post Detail Page */
-.post-content.dark-mode h1,h2,h3{
+.post-content.dark-mode h1,
+.post-content.dark-mode h2,
+.post-content.dark-mode h3{
     color: var(--background-color);
 }
 
