@@ -175,6 +175,10 @@ aside{
     cursor: pointer;
 }
 
+.post h3{
+    color: var(--text-color);
+}
+
 .animate{
     animation: sd-animate 1s forwards;
 }

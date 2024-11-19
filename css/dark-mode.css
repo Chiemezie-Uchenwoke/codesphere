@@ -313,6 +313,19 @@ footer.dark-mode{
     background-color: var(--text-color);
 }
 
+.cont.dark-mode .post h3{
+    color: var(--background-color);
+}
+
+/* Post Detail Page */
+.post-content.dark-mode h1,h2,h3{
+    color: var(--background-color);
+}
+
+.post-content.dark-mode p{
+    color: var(--lightborder-color);
+}
+
 
 /* Laptops and above */
 @media (min-width: 1000px){

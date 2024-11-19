@@ -1,5 +1,6 @@
 let darkModeBox = document.getElementById("darkmode-box");
 let iconCont = document.querySelector(".icon-cont");
+const postContents = document.querySelectorAll(".post-content");
 
 // Toggle visibility of .icon-cont on darkModeBox click
 darkModeBox.addEventListener("click", function showDarkIconBox(event) {
@@ -64,6 +65,10 @@ function applyDarkMode(){
     document.querySelector(".panel")?.classList.add("dark-mode");
     // Blog Post
     document.querySelector(".cont")?.classList.add("dark-mode");
+    // Post-detail page
+    postContents?.forEach((post) => {
+        post.classList.add("dark-mode");
+    });
    
     // Save preference in localStorage
     localStorage.setItem('theme', 'dark');
@@ -104,6 +109,10 @@ function removeDarkMode(){
         document.querySelector(".panel")?.classList.remove("dark-mode");
         // Blog Post
         document.querySelector(".cont")?.classList.remove("dark-mode");
+        // Post-detail page
+        postContents?.forEach((post) => {
+            post.classList.remove("dark-mode");
+        });
 
     
         // Save preference in localStorage
