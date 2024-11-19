@@ -39,8 +39,8 @@ body{
 /* Panel */
 .panel{
     background-color: var(--background-color);
-    border-top: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
+    /* border-top: 1px solid var(--border-color); */
+    border-bottom: 1.3px solid var(--border-color);
     position: relative;
     z-index: 5;
 }

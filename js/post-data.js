@@ -13,7 +13,16 @@ const getPostContent = () => {
     if (postId) {
         const selectedPost = document.getElementById("post-" + postId);
         if (selectedPost) {
+            const navLinks = document.querySelectorAll("header > nav > ul a");
+
             selectedPost.style.display = "block";
+
+            // Nested if to remove all the active class on post detail page.
+            navLinks.forEach((link) => {
+                if(link.classList.contains("active")){
+                    link.classList.remove("active");
+                }
+            });
         } 
         else {
             alert('Post not found');
