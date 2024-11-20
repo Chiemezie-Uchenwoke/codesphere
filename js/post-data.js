@@ -2,7 +2,7 @@
 const getPostContent = () => {
     const allPost = document.querySelectorAll(".post-content");
     const urlParams = new URLSearchParams(window.location.search);
-    const postId = urlParams.get('id');
+    const postId = urlParams.get("id");
 
     // Hide all posts initially
     allPost.forEach((post) => {
@@ -19,19 +19,19 @@ const getPostContent = () => {
 
             // Nested if to remove all the active class on post detail page.
             navLinks.forEach((link) => {
-                if(link.classList.contains("active")){
+                if (link.classList.contains("active")) {
                     link.classList.remove("active");
                 }
             });
         } 
         else {
-            alert('Post not found');
+            alert("Post not found");
         }
     } 
     else {
-        alert('No post ID provided in the URL');
+        alert("No post ID provided in the URL");
     }
 };
 
 // Run the function when the page loads
-document.addEventListener('DOMContentLoaded', getPostContent);
+document.addEventListener("DOMContentLoaded", getPostContent);
