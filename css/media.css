@@ -496,7 +496,15 @@ body{
         font-size: 2.7rem;
     }
 
+    .f-grid-box{
+        gap: 4rem;
+    }
+
     .f-grid-box .b-img{
         height: 290px;
+    }
+
+    .inspire{
+        margin-top: 3rem;
     }
 }

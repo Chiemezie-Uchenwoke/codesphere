@@ -135,8 +135,16 @@ body{
         margin: 0 auto;
     }
 
+    .cont{
+        margin: 4rem 0;
+    }
+
+    .blg-grid-cont{
+        gap: 4rem;
+    }
+
     .post .blg-img{
-        height: 250px;
+        height: 20rem;
     }
 
 
