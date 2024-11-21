@@ -120,6 +120,11 @@ body{
         margin: 0 auto;
     }
 
+    /* Add padding bottom to blog page */
+    .cont{
+        padding: 0 0 2rem 0;
+    }
+
 
     .blg-grid-cont{
         grid-template-columns: repeat(3, 1fr);
