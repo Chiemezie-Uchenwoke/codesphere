@@ -13,9 +13,9 @@ const getPostContent = () => {
     if (postId) {
         const selectedPost = document.getElementById("post-" + postId);
         if (selectedPost) {
-            const navLinks = document.querySelectorAll("header > nav > ul a");
-
             selectedPost.style.display = "block";
+
+            const navLinks = document.querySelectorAll("header > nav > ul a");
 
             // Nested if to remove all the active class on post detail page.
             navLinks.forEach((link) => {

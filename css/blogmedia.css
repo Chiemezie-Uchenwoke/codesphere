@@ -126,6 +126,15 @@ body{
         grid-template-rows: repeat(4, auto);
     }
 
+    .post{
+        padding: 2rem 1rem;
+    }
+
+    /* To hide the read more anchor tag on large screens */
+    .post a{
+        display: none;
+    }
+
     
 }
 
