@@ -137,7 +137,8 @@ mailPanel.addEventListener("click", function openMail(){
 // To make each article in blog page clickable
 allBlogPosts.forEach((post, i) => {
     post.addEventListener("click", () => {
-        let postId =  i + 1;
+        const postId =  i + 1;
         window.location.href = "post-details.html?id=" + postId;
     });
 });
+
