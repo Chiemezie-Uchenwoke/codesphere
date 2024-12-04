@@ -2,12 +2,12 @@
 ScrollReveal().reveal('.featured');
 
 ScrollReveal().reveal('.f-grid-box', { delay: 100 });
-ScrollReveal().reveal('.g-grd-1', { delay: 100 });
-ScrollReveal().reveal('.g-grd-2', { delay: 200 });
-ScrollReveal().reveal('.g-grd-3', { delay: 300 });
-ScrollReveal().reveal('.g-grd-4', { delay: 600 });
-ScrollReveal().reveal('.g-grd-5', { delay: 850 });
-ScrollReveal().reveal('.g-grd-6', { delay: 1050 });
+ScrollReveal().reveal('.g-grd-1', { delay: 500 });
+ScrollReveal().reveal('.g-grd-2', { delay: 500 });
+ScrollReveal().reveal('.g-grd-3', { delay: 500 });
+ScrollReveal().reveal('.g-grd-4', { delay: 500 });
+ScrollReveal().reveal('.g-grd-5', { delay: 500 });
+ScrollReveal().reveal('.g-grd-6', { delay: 500 });
 
 // blog.html
 ScrollReveal().reveal('.cont');
