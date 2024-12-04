@@ -135,3 +135,5 @@ instagram.addEventListener("click", function openIg(){
 mail.addEventListener("click", function openMail(){
         window.open("mailto:uchenwoke.chiemezie@gmail.com", "_blank");
     });
+
+ 
