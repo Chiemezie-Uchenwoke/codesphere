@@ -145,6 +145,7 @@ body{
     .f-grid-box{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
+        gap: 3rem;
     }  
 
     .f-grid-box .b-img{
@@ -335,7 +336,7 @@ body{
     }
 
     a.f-view{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 0.8rem 1.5rem;
     }
 

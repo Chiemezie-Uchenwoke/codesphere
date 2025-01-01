@@ -344,12 +344,13 @@ button.btn-style:hover{
 
 .featured p{
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 
 .featured h3{
     color: var(--text-color);
     line-height: 1.5rem;
+    font-size: 1rem;
 }
 
 .f-grid-box{
@@ -358,6 +359,7 @@ button.btn-style:hover{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
     gap: 2rem;
+    padding: 0 1rem;
 }
 
 .f-grid-box > div{
@@ -379,9 +381,10 @@ button.btn-style:hover{
 }
 
 .f-grid-box .b-img{
-    height: 200px;
+    height: fit-content;
     overflow: hidden;
     border-radius: 5px;
+    background-color: #3f84c5;
 }
 
 .featured .b-img > img {
@@ -419,6 +422,7 @@ button.btn-style:hover{
     display: flex;
     align-items: center;
     gap: 0.4rem;
+    font-size: 0.9rem;
 }
 
 .b-cont:hover a{
