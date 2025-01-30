@@ -70,9 +70,45 @@ body{
 
 /* 600px break point */
 @media (min-width: 600px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* hero */
+    .hero-wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 3rem 0;
+    }
+
+    .hero-intro h1{
+        font-size: 1.5rem;
+    }
+
+    .hero-intro p{
+        font-size: 1rem;
+    }
+
+    /* what you get */
+    .w-get{
+        margin-top: 4rem;
+    }
+
      /* Featured */
+     .f-grid-box{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 3rem;
+    }  
+
      .f-grid-box .b-img{
-        height: 290px;
+        height: 170px;
+    }
+
+     /* Inspire */
+     .inspire{
+        margin-top: 4rem;
     }
 }
 
@@ -80,7 +116,7 @@ body{
 @media (min-width: 768px){
     /* ===== Mobile left and right alignment ===== */
     .container{
-        width: 95%;
+        width: 85%;
         margin: 0 auto;
     }
 
@@ -133,7 +169,7 @@ body{
     }
 
     .g-cont p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.8rem;
     }
 
@@ -142,14 +178,8 @@ body{
         font-size: 1.55rem;
     }
 
-    .f-grid-box{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, auto);
-        gap: 3rem;
-    }  
-
     .f-grid-box .b-img{
-        height: 220px;
+        height: 200px;
     }
     
     /* Inspire */
@@ -187,7 +217,7 @@ body{
 @media (min-width: 1000px){
     /* ===== Mobile left and right alignment ===== */
     .container{
-        width: 93%;
+        width: 85%;
         margin: 0 auto;
     }
 
@@ -207,11 +237,11 @@ body{
 
     header > nav{
         width: 100%;
-        padding: 1rem 2.8rem;
+        padding: 1rem 0;
     }
 
-    header > nav > ul,
-    header > nav > input{
+    header > nav > div > ul,
+    header > nav > div > input{
         display: block;
     }
 
@@ -220,7 +250,7 @@ body{
         display: none;
     }
 
-    header > nav > ul{
+    header > nav > div > ul{
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -228,13 +258,13 @@ body{
         width: 60%;
     }
 
-    header > nav > ul > li{
+    header > nav > div > ul > li{
         text-transform: capitalize;
         font-size: 1.3rem;
         font-weight: 500;
     }
 
-    header > nav > ul > li:hover{
+    header > nav > div > ul > li:hover{
         color: var(--primary-color);
     }
 
@@ -246,7 +276,7 @@ body{
         font-weight: 700;
     }
 
-    header > nav > input{
+    header > nav > div > input{
         width: 20%;
         max-width: 400px;
         height: 40px;
@@ -257,7 +287,7 @@ body{
         padding-left: 1rem;
     }
 
-    header > nav > input::placeholder{
+    header > nav > div > input::placeholder{
         font-size: 1.3rem;
         padding: 0 1rem;
     }
@@ -273,17 +303,18 @@ body{
     }
     
     .hero-intro h1{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .hero-intro p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2.3rem;
     }
 
     .hero-links > a.explore,
     .hero-links > a.abt{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        padding: 0.8rem;
     }
 
     /* What you get section */
@@ -304,7 +335,7 @@ body{
     }
 
     .g-cont p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2.5rem;
     }
 
@@ -315,6 +346,7 @@ body{
 
     .featured h2{
         font-size: 2.3rem;
+        font-weight: 700;
     }
 
     .featured h3{
@@ -328,7 +360,7 @@ body{
     }
 
     .f-grid-box > div{
-        padding: 1.5rem 1rem;
+        padding:  0;
     }
 
     .f-wrap{
@@ -348,8 +380,9 @@ body{
     .insp-wr{
         font-size: 1.45rem;
         letter-spacing: 0.3px;
-        width: 55%;
+        width: 65%;
         margin-inline: auto;
+        line-height: 2rem;
         /* height: 7rem; */
     }
 
