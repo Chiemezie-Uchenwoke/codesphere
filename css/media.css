@@ -48,7 +48,7 @@ body{
 @media (min-width: 500px){
     /* ===== Mobile left and right alignment ===== */
     .container{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -58,8 +58,14 @@ body{
     }
 
     /* Featured */
+    .f-grid-box{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 3rem;
+    }  
+
     .f-grid-box .b-img{
-        height: 270px;
+        height: 150px;
     }
 
     /* Inspire */
@@ -142,7 +148,7 @@ body{
 
     .hero-wrapper > div{
         width: 100%;
-        height: 21rem;
+        /* height: 21rem; */
     }
 
     .hero-intro{
